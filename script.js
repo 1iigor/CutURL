@@ -9,9 +9,9 @@ function toggleMode() {
 
   const img = document.querySelector("#profile img")
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "./assets/Foto_perfil.jpg")
+    img.setAttribute("src", "./assets/avatar-perfil.jpg")
   } else {
-    img.setAttribute("src", "./assets/Foto_perfil.jpg")
+    img.setAttribute("src", "./assets/avatar-perfil.jpg")
   }
 
   // Atualiza o vídeo conforme o tema
